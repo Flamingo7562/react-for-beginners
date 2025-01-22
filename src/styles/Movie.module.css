@@ -1,0 +1,31 @@
+.moviePage {
+  display: flex;
+  padding: 15px, 30px;
+  background-color: beige;
+  border: 3px solid rgba(0, 0, 0, 0.8);
+  position: relative;
+  height: 400px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px rgba(255, 255, 120, 0.5);
+  transition: transform 1s ease-out;
+}
+
+.moviePage:hover {
+  transform: rotateX(5deg) rotateY(-10deg);
+}
+
+.movieImg {
+  position: relative;
+  padding: 10px;
+}
+
+.title {
+  color: rgba(231, 83, 20, 0.8);
+  text-decoration: none;
+  text-shadow: 2px 2px 4px rgba(231, 83, 20, 0.5);
+}
+
+.summary {
+  max-width: 500px;
+  color: rgba(0, 0, 0, 0.9);
+}

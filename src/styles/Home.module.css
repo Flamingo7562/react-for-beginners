@@ -1,0 +1,35 @@
+.main {
+  background-color: rgba(20, 20, 20, 0.3);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  margin: 0px;
+  padding-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.webHeader {
+  display: flex;
+  font-size: 64px;
+  justify-content: center;
+  padding-bottom: 20px;
+  background-color: beige;
+  text-shadow: 2px 2px 4px rgba(231, 83, 20, 0.5);
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 3px solid black;
+  width: 40%;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  column-gap: 10%;
+  row-gap: 20px;
+}
